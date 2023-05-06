@@ -1,0 +1,9 @@
+<script>
+    var origin = window.location.origin;
+    var path = window.location.pathname.split( '/' );
+    var URL = origin+'/'+path[1]+'/'+path[2];
+
+    document.writeln(origin+"<br>");
+    document.writeln(path+"<br>");
+    document.writeln(URL+'/admin/dashboard.php'+"<br>");
+</script>
